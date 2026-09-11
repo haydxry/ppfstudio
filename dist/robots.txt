@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /tesekkurler.html
+Sitemap: https://berk-ppf-studio.haydary.chatgpt.site/sitemap.xml
