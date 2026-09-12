@@ -1,0 +1,12 @@
+<fieldset class="visit-options">
+  <legend>Bir sonraki adımı planlayın</legend>
+  <label for="request-kind">Nasıl ilerleyelim?</label>
+  <select id="request-kind" name="requestKind"><option value="quote">Önce bilgi ve teklif almak istiyorum</option><option value="visit">Stüdyo ziyareti için randevu talep ediyorum</option></select>
+  <div id="visit-fields" hidden>
+    <label for="visit-date">Tercih ettiğiniz gün</label>
+    <input id="visit-date" name="visitDate" type="date" disabled aria-describedby="visit-help">
+    <label for="visit-time">Tercih ettiğiniz zaman</label>
+    <select id="visit-time" name="visitTime" disabled><option>Fark etmez</option><option>Sabah</option><option>Öğleden sonra</option></select>
+    <p id="visit-help" class="form-note">Bu bir uygunluk takvimi değildir. Gün ve zaman tercihinizi iletiyoruz; randevu stüdyo onayıyla kesinleşir.</p>
+  </div>
+</fieldset>
